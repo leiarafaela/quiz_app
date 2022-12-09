@@ -18,16 +18,43 @@ class _PerguntaAppState extends State<PerguntaApp> {
   var _perguntaSelecionada = 0;
   final _perguntas = const [
     {
-      'texto': 'Qual é a sua cor favorita?',
-      'respostas': ['Azul', 'Vermelho', 'Preto', 'Branco']
+      'pergunta': 'Qual empresa criou o Flutter?',
+      'respostas': [
+        {'alternativa': 'Microsoft', 'pontuacao': 0},
+        {'alternativa': 'Google', 'pontuacao': 2.5},
+        {'alternativa': 'AWS', 'pontuacao': 0},
+        {'alternativa': 'Apple', 'pontuacao': 0},
+      ]
     },
     {
-      'texto': 'Qual é o seu animal favorito?',
-      'respostas': ['Gato', 'Cachorro', 'Tigre', 'Lobo']
+      'pergunta': 'Em que ano o Flutter foi lançado?',
+      'respostas': [
+        {'alternativa': '2010', 'pontuacao': 0},
+        {'alternativa': '2015', 'pontuacao': 0},
+        {'alternativa': '2017', 'pontuacao': 2.5},
+        {'alternativa': '2019', 'pontuacao': 0},
+      ]
     },
     {
-      'texto': 'Qual é o seu filme favorito?',
-      'respostas': ['Titanic', 'Crepusculo', 'Harry Potter', 'As branquelas']
+      'pergunta': 'Qual linguagem de programação é utilizado com o Flutter?',
+      'respostas': [
+        {'alternativa': 'JavaScript', 'pontuacao': 0},
+        {'alternativa': 'Python', 'pontuacao': 0},
+        {'alternativa': 'Dart', 'pontuacao': 2.5},
+        {'alternativa': 'C#', 'pontuacao': 0},
+      ]
+    },
+    {
+      'pergunta': 'O Flutter é multiplataforma?',
+      'respostas': [
+        {'alternativa': 'Não, suporta apenas Android', 'pontuacao': 0},
+        {'alternativa': 'Não, suporta apenas iOS', 'pontuacao': 0},
+        {
+          'alternativa': 'Sim, suporta  o Android, iOS entre outros',
+          'pontuacao': 2.5
+        },
+        {'alternativa': 'Não, suporta apenas Web', 'pontuacao': 0},
+      ]
     },
   ];
 
