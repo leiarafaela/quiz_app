@@ -15,7 +15,7 @@ class QuizApp extends StatelessWidget {
       theme: ThemeData(
           fontFamily: GoogleFonts.lato().fontFamily,
           colorScheme: ColorScheme.fromSwatch().copyWith(
-            primary: const Color.fromARGB(255, 1, 13, 34),
+            primary: const Color(0XFF00081B),
           ),
           textTheme: const TextTheme(
             bodyText2: TextStyle(
@@ -24,7 +24,7 @@ class QuizApp extends StatelessWidget {
           ),
           elevatedButtonTheme: ElevatedButtonThemeData(
             style: ElevatedButton.styleFrom(
-              backgroundColor: const Color.fromARGB(255, 1, 13, 34),
+              backgroundColor: const Color(0XFF00081B),
               textStyle: const TextStyle(
                 color: Colors.white,
               ),
