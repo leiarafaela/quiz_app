@@ -27,9 +27,11 @@ class Questionario extends StatelessWidget {
 
     return Column(
       children: [
+        const SizedBox(height: 20),
         Questao(
           texto: perguntas[perguntaSelecionada]['pergunta'].toString(),
         ),
+        const SizedBox(height: 20),
         ...respostas.map((resp) {
           return Resposta(
             texto: resp['alternativa'].toString(),

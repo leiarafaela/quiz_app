@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Resultado extends StatelessWidget {
-  Resultado({
+  const Resultado({
     super.key,
     required this.pontuacao,
     required this.reiniciarApp,
