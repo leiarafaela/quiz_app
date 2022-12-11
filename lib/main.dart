@@ -17,6 +17,11 @@ class QuizApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSwatch().copyWith(
             primary: const Color.fromARGB(255, 1, 13, 34),
           ),
+          textTheme: const TextTheme(
+            bodyText2: TextStyle(
+              fontSize: 18,
+            ),
+          ),
           elevatedButtonTheme: ElevatedButtonThemeData(
             style: ElevatedButton.styleFrom(
               backgroundColor: const Color.fromARGB(255, 1, 13, 34),
