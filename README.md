@@ -2,8 +2,9 @@
 
 <p> Project under development to improve my knowledge in Flutter.</p>
 
+
 <p align="center">
-  <b>v1.0.0</b>
+<img src="http://img.shields.io/static/v1?label=v1.0.0&message=IN%20PROGRESS&color=GREEN&style=for-the-badge"/>
 </p>
 
 <p align="center">
